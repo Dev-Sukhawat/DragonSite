@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DragonGallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer type="module" src="all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://kit.fontawesome.com/e2b8463ebd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About</a></li>
+            <li>
+                <div class="search-wrapper">
+                    <input type="search" id="search" placeholder="Search Dragon" aria-label="Search Dragon">
+                    <button type="submit" aria-label="Submit search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+                <div class="nav-card" id="nav-card">
+                    <!-- Cards will be dynamically added here -->
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+
+
+    <!-- Video Section -->
+    <div class="video-container">
+        <video id="scrollVideo" muted playsinline>
+            <source src="Gallery/Dragon_edit.mp4" type="video/mp4">
+        </video>
+        <!-- Welcome Message -->
+        <div class="video-overlay">
+            <h1>Welcome to Dragon Gallery</h1>
+            <p>Explore a mystical world of legendary dragons, each with its own story and power.</p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <section id="gallery">
+            <h2>Dragon Gallery</h2>
+            <div class="gallery">
+                <div class="dragon-card">
+                    <img src="Gallery/dragon1.jpg" alt="Hell Dragon">
+                    <h3>Hell Dragon</h3>
+                    <p>A fiery and fierce guardian of the underworld, embodying relentless power and destruction.</p>
+                </div>
+                <div class="dragon-card">
+                    <img src="Gallery/dragon2.jpg" alt="Wind Dragon">
+                    <h3>Wind Dragon</h3>
+                    <p>A swift and graceful creature, soaring through the skies with unparalleled agility and freedom.
+                    </p>
+                </div>
+                <div class="dragon-card">
+                    <img src="Gallery/dragon3.jpg" alt="Illusion Dragon">
+                    <h3>Illusion Dragon</h3>
+                    <p>A master of deception, weaving illusions that captivate and confuse its enemies.</p>
+                </div>
+                <div class="dragon-card">
+                    <img src="Gallery/dragon4.jpg" alt="Earth Dragon">
+                    <h3>Earth Dragon</h3>
+                    <p>A steadfast guardian of the land, drawing strength from the rocks and soil to protect its domain.
+                    </p>
+                </div>
+                <div class="dragon-card">
+                    <img src="Gallery/dragon5.jpg" alt="Water Dragon">
+                    <h3>Water Dragon</h3>
+                    <p>A majestic being from the deep, flowing gracefully through oceans and commanding the tides.</p>
+                </div>
+                <div class="dragon-card">
+                    <img src="Gallery/dragon6.jpg" alt="Spring Dragon">
+                    <h3>Spring Dragon</h3>
+                    <p>A symbol of renewal and vitality, bringing life and energy to the lands it graces.</p>
+                </div>
+                <div class="dragon-card">
+                    <img src="Gallery/dragon7.jpg" alt="Undead Dragon">
+                    <h3>Undead Dragon</h3>
+                    <p>A haunting specter, bound by dark magic and forever roaming the shadowy realms.</p>
+                </div>
+                <div class="dragon-card">
+                    <img src="Gallery/dragon8.jpg" alt="Lazy Dragon">
+                    <h3>Lazy Dragon</h3>
+                    <p>The ancient creator of dragons, known for its leisurely demeanor and untold wisdom.</p>
+                </div>
+                <div class="dragon-card">
+                    <img src="Gallery/dragon9.jpg" alt="Charming Dragon">
+                    <h3>Charming Dragon</h3>
+                    <p>A mesmerizing creature, enchanting all who encounter its graceful and alluring presence.</p>
+                </div>
+                <div class="dragon-card">
+                    <img src="Gallery/dragon10.jpg" alt="Ice Dragon">
+                    <h3>Ice Dragon</h3>
+                    <p>An awe-inspiring beast from the frozen tundras, capable of summoning blizzards at will.</p>
+                </div>
+                <div class="dragon-card">
+                    <img src="Gallery/dragon1.jpg" alt="Hell Dragon">
+                    <h3>Hell Dragon</h3>
+                    <p>A fiery and fierce guardian of the underworld, embodying relentless power and destruction.</p>
+                </div>
+                <div class="dragon-card">
+                    <img src="Gallery/dragon2.jpg" alt="Wind Dragon">
+                    <h3>Wind Dragon</h3>
+                    <p>A swift and graceful creature, soaring through the skies with unparalleled agility and freedom.
+                    </p>
+                </div>
+                <div class="dragon-card">
+                    <img src="Gallery/dragon3.jpg" alt="Illusion Dragon">
+                    <h3>Illusion Dragon</h3>
+                    <p>A master of deception, weaving illusions that captivate and confuse its enemies.</p>
+                </div>
+                <div class="dragon-card">
+                    <img src="Gallery/dragon4.jpg" alt="Earth Dragon">
+                    <h3>Earth Dragon</h3>
+                    <p>A steadfast guardian of the land, drawing strength from the rocks and soil to protect its domain.
+                    </p>
+                </div>
+                <div class="dragon-card">
+                    <img src="Gallery/dragon5.jpg" alt="Water Dragon">
+                    <h3>Water Dragon</h3>
+                    <p>A majestic being from the deep, flowing gracefully through oceans and commanding the tides.</p>
+                </div>
+                <div class="dragon-card">
+                    <img src="Gallery/dragon6.jpg" alt="Spring Dragon">
+                    <h3>Spring Dragon</h3>
+                    <p>A symbol of renewal and vitality, bringing life and energy to the lands it graces.</p>
+                </div>
+                <div class="dragon-card">
+                    <img src="Gallery/dragon7.jpg" alt="Undead Dragon">
+                    <h3>Undead Dragon</h3>
+                    <p>A haunting specter, bound by dark magic and forever roaming the shadowy realms.</p>
+                </div>
+                <div class="dragon-card">
+                    <img src="Gallery/dragon8.jpg" alt="Lazy Dragon">
+                    <h3>Lazy Dragon</h3>
+                    <p>The ancient creator of dragons, known for its leisurely demeanor and untold wisdom.</p>
+                </div>
+                <div class="dragon-card">
+                    <img src="Gallery/dragon9.jpg" alt="Charming Dragon">
+                    <h3>Charming Dragon</h3>
+                    <p>A mesmerizing creature, enchanting all who encounter its graceful and alluring presence.</p>
+                </div>
+                <div class="dragon-card">
+                    <img src="Gallery/dragon10.jpg" alt="Ice Dragon">
+                    <h3>Ice Dragon</h3>
+                    <p>An awe-inspiring beast from the frozen tundras, capable of summoning blizzards at will.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to DragonGallery, where the mythical meets the magical. Explore our curated collection of dragons
+                from around the world.</p>
+            <div class="about-highlights">
+                <div class="highlight-card">
+                    <h3>Diverse Collection</h3>
+                    <p>Discover dragons of fire, ice, and legend, each with a unique story.</p>
+                </div>
+                <div class="highlight-card">
+                    <h3>Dragon Community</h3>
+                    <p>Join a community of dragon enthusiasts sharing lore and art.</p>
+                </div>
+                <div class="highlight-card">
+                    <h3>Mythology and Art</h3>
+                    <p>Delve into dragon myths, stories, and breathtaking illustrations.</p>
+                </div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>2022</h3>
+                    <p>DragonGallery was founded to bring dragon art to the world.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>2023</h3>
+                    <p>We launched our community feature, welcoming enthusiasts globally.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>2024</h3>
+                    <p>Expanded to include interactive dragon stories and events.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 DragonGallery. All rights reserved.</p>
+        <ul class="footer-links">
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#terms">Terms of Service</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
