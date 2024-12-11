@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Hell Dragon",
+        "description": "A fiery and fierce guardian of the underworld, embodying relentless power and destruction.",
+        "img": "Gallery/dragon1.jpg"
+    },
+    {
+        "name": "Wind Dragon",
+        "description": "A swift and graceful creature, soaring through the skies with unparalleled agility and freedom.",
+        "img": "Gallery/dragon2.jpg"
+    },
+    {
+        "name": "Illusion Dragon",
+        "description": "A master of deception, weaving illusions that captivate and confuse its enemies.",
+        "img": "Gallery/dragon3.jpg"
+    },
+    {
+        "name": "Earth Dragon",
+        "description": "A steadfast guardian of the land, drawing strength from the rocks and soil to protect its domain.",
+        "img": "Gallery/dragon4.jpg"
+    },
+    {
+        "name": "Water Dragon",
+        "description": "A majestic being from the deep, flowing gracefully through oceans and commanding the tides.",
+        "img": "Gallery/dragon5.jpg"
+    },
+    {
+        "name": "Spring Dragon",
+        "description": "A symbol of renewal and vitality, bringing life and energy to the lands it graces.",
+        "img": "Gallery/dragon6.jpg"
+    },
+    {
+        "name": "Undead Dragon",
+        "description": "A haunting specter, bound by dark magic and forever roaming the shadowy realms.",
+        "img": "Gallery/dragon7.jpg"
+    },
+    {
+        "name": "Lazy Dragon",
+        "description": "The ancient creator of dragons, known for its leisurely demeanor and untold wisdom.",
+        "img": "Gallery/dragon8.jpg"
+    },
+    {
+        "name": "Charming Dragon",
+        "description": "A mesmerizing creature, enchanting all who encounter its graceful and alluring presence.",
+        "img": "Gallery/dragon9.jpg"
+    },
+    {
+        "name": "Ice Dragon",
+        "description": "An awe-inspiring beast from the frozen tundras, capable of summoning blizzards at will.",
+        "img": "Gallery/dragon10.jpg"
+    }
+]
